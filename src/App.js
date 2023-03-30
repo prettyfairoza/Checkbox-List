@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import countries from "./countries.json";
 
 function App() {
@@ -23,7 +22,7 @@ function App() {
   };
 
   const filteredItems = checkboxes.filter((item) => {
-    if (searchQuery == "") {
+    if (searchQuery === "") {
       return item;
     } else {
       return item.label.toLowerCase().includes(searchQuery.toLowerCase());
