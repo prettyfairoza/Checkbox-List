@@ -1,0 +1,18 @@
+[ 
+  {"label": "Afghanistan", "id": 1, "checked":false }, 
+  {"label": "Åland Islands", "id": 2, "checked":false }, 
+  {"label": "Albania", "id": 3, "checked":false }, 
+  {"label": "Algeria", "id": 4, "checked":false }, 
+  {"label": "American Samoa", "id": 5, "checked":false }, 
+  {"label": "AndorrA", "id": 6, "checked":false }, 
+  {"label": "Angola", "id": 7, "checked":false }, 
+  {"label": "Anguilla", "id": 8, "checked":false }, 
+  {"label": "Antarctica", "id": 9, "checked":false }, 
+  {"label": "Antigua and Barbuda", "id": 10, "checked":false }, 
+  {"label": "Argentina", "id": 11, "checked":false }, 
+  {"label": "Armenia", "id": 12, "checked":false }, 
+  {"label": "Aruba", "id": 13, "checked":false }, 
+  {"label": "Australia", "id": 14, "checked":false }, 
+  {"label": "Austria", "id": 15, "checked":false }, 
+  {"label": "Azerbaijan", "id":16, "checked":false }
+]
