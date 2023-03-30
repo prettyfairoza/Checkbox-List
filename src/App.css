@@ -128,7 +128,6 @@ input:checked + .slider:before {
 .showSelected {
   width: 100%;
   padding: 23px 0px;
-  padding: 23px, 0px, 23px, 0px;
   display: flex;
   justify-content: space-between;
 }
