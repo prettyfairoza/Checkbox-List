@@ -69,13 +69,15 @@ function App() {
           {filteredItems.map((checkbox) =>
             showOnlyChecked && !checkbox.checked ? null : (
               <div className="checkList" key={checkbox.id}>
-                <input
-                  type="checkbox"
-                  className="countryCheck"
-                  checked={checkbox.checked}
-                  onChange={() => handleCheckboxChange(checkbox.id)}
-                />
-                {checkbox.label}
+                <label class="checkboxContainer">
+                  {checkbox.label}
+                  <input
+                    type="checkbox"
+                    checked={checkbox.checked}
+                    onChange={() => handleCheckboxChange(checkbox.id)}
+                  />
+                  <span class="checkmark"></span>
+                </label>
               </div>
             )
           )}
